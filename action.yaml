@@ -1,0 +1,6 @@
+name: Foo
+description: Foo
+runs:
+  using: composite
+  steps:
+    - echo "foo"
