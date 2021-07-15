@@ -3,4 +3,5 @@ description: Foo
 runs:
   using: composite
   steps:
-    - echo "foo"
+    - run: echo "foo"
+      shell: bash
